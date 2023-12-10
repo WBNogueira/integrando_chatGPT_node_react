@@ -2,41 +2,7 @@
 
 ### Um clone fullstack do chatgpt utilizando uma integração com o algoritmo do OpenAI
 
-#### Sumário
-
-1. [**Criando o Server**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#1-criando-o-server)
-
-2. [**Instalando Dependências do Projeto**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#2-instalando-depend%C3%AAncias-do-projeto)
-
-3. [**Configurações do ChatGPT**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#3-configura%C3%A7%C3%B5es-do-chatgpt)
-
-4. [**Criando a Controller**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#4-criando-a-controller)
-
-5. [**Configurando Rotas da Aplicação**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#5-configurando-rotas-da-aplica%C3%A7%C3%A3o)
-
-6. [**Criando o Frontend com React**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#6-criando-o-frontend-com-react)
-
-7. [**Estruturando o Projeto React**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#7-estruturando-o-projeto-react)
-
-8. [**Estrutura de Codificação**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#8-estrutura-de-codifica%C3%A7%C3%A3o)
-
-9. [**Consumindo Nossa API**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#9-consumindo-nossa-api)
-
-10. [**CSS Padronizado**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#10-css-padronizado)
-
-11. [**Criando Base CSS do App**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#11-criando-base-css-do-app)
-
-12. [**Criando Componente de Mensagem**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#12-criando-componente-de-mensagem)
-
-13. [**Utilizando o SVG Real do ChatGPT**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#13-utilizando-o-svg-real-do-chatgpt)
-
-14. [**Implementando Log de Chat**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#14-implementando-log-de-chat)
-
-15. [**Estilizando o App Principal**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#15-estilizando-o-app-principal)
-
-16. [**Node Watch**](https://chat.openai.com/c/bc1d190d-9f1e-4254-9dda-7750efbef9a5#16-node-watch)
-
-17. Criando o Server
+# 
 
 -------------------
 
@@ -226,5 +192,3 @@ Adicione um script no `package.json` para iniciar o servidor com `nodemon`.
 "scripts": {
   "start": "nodemon server.js"
 }
-
-
