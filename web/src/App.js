@@ -22,12 +22,12 @@ function App() {
     response = response.data.split('\n').map(line => <p>{line}</p>)
 
     setChatlog([...chatlog, {
-      user: "me",
+      user: 'me',
       message: `${input}`
     },
       {
-        user: "gpt",
-      message: response
+        user: 'gpt',
+        message: response
       }
     ])
 

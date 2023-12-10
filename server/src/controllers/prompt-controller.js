@@ -7,7 +7,7 @@ module.exports = {
         const inputModel = new InputPrompt(req.body)
 
         try {
-            const response = await openaiAPI.createCompletion(
+            const response = await openaiAPI.createCompletion (
                 openai.textCompletion(inputModel)
             )
 
@@ -19,7 +19,8 @@ module.exports = {
         } catch (error) {
             return res.status(400).json({
                 sucess: false,
-                error: error.response ? error.response.data : "There was an inssue on the server"  
+                error: error.response
+                ? error.response.data : "There was an inssue on the server"  
             })
         }
     }
